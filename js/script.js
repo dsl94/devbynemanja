@@ -228,7 +228,7 @@ const swiper2 = new Swiper('.partnerCarousel', {
 /*================================================================= 
     Map
 ==================================================================*/
-var map = L.map('mapwrapper').setView([-37.817160, 144.955937], 12);
+var map = L.map('mapwrapper').setView([43.3161735,21.8933594], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
