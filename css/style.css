@@ -678,7 +678,7 @@ h6 {
   background-color: #44cbe1;
 }
 .skill-section .progress-value {
-  position: absolute;
+  /*position: absolute;*/
   right: 0;
   top: 2px;
   color: #44cbe1;
