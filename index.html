@@ -1405,9 +1405,8 @@
 					<div class="form-message">
 						<p></p>
 					</div>
-					<form class="row g-3" id="fungi-contact" method="POST" action="https://api.web3forms.com/submit">
+					<form class="row g-3" method="POST" action="https://api.web3forms.com/submit">
 						<input type="hidden" name="access_key" value="d600cedc-6a11-4149-9daa-3866b4f49840">
-						<input type="hidden" name="redirect" value="https://web3forms.com/success">
 						<div class="col-md-6">
 							<div class="input-group mb-3">
 								<label for="inputName" class="form-label visually-hidden">Name</label>
@@ -1415,18 +1414,16 @@
 	   						</div>
 	   					</div>
 	   					<div class="col-md-6">
-
 	   						<div class="input-group mb-3">
 								<label for="inputEmail" class="form-label visually-hidden">Email</label>
 		   						<input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email*" required>
 	   						</div>
-   						
-						</div> 
+						</div>
 						<div class="col-md-12">
 							<label for="inputMessage" class="form-label visually-hidden">Message</label>
 	   						<textarea class="form-control mb-3" id="inputMessage" name="message" placeholder="Your message here*" required></textarea>
 <!--							<div class="h-captcha" data-captcha="true"></div>-->
-							<span id="hiddenSpan" style="display: none"><p>Message sent, I will reply to you as soon as possible.</p><br></span>
+							<input type="hidden" name="redirect" value="https://web3forms.com/success">
 							<button id="sendMail" type="submit" class="btn btn-main" name="submit">Send Message</button>
 						</div>
 					</form> <!-- .row -->
@@ -1480,6 +1477,6 @@
 <script src="js/particles.min.js"></script>
 <script src="js/typer.js"></script>
 <script src="js/script.js"></script>
-	<script src="https://web3forms.com/client/script.js" async defer></script>
+<!--	<script src="https://web3forms.com/client/script.js" async defer></script>-->
 </body>
 </html>
